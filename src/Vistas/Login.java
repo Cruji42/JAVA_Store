@@ -28,10 +28,9 @@ public class Login extends javax.swing.JFrame {
 
     public Login()
     {
-//        AgregarProducto agregarProducto = new AgregarProducto();
         add(LoginPanel);
         setTitle("Login");
-        setSize(400,500);
+        setSize(1000,1000);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         pack();
         setVisible(true);
@@ -68,8 +67,8 @@ public class Login extends javax.swing.JFrame {
             }
 
             if(Email != null && Password != null){
-                Demo dm = new Demo();
-                dm.setVisible(true);
+                Menu m = new Menu();
+                m.setVisible(true);
                 dispose();
                 Password = null;
                 Email = null;
