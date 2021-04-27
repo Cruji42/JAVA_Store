@@ -20,8 +20,8 @@ public class Menu extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
-//                Agregar ag = new Agregar();
-//                ag.setVisible(true);
+                Agregar a = new Agregar();
+                a.setVisible(true);
 
             }
         });
