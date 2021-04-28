@@ -25,6 +25,15 @@ public class Menu extends JFrame {
 
             }
         });
+        BuscarBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+                Buscar a = new Buscar();
+                a.setVisible(true);
+
+            }
+        });
     }
 
     private void createUIComponents() {
