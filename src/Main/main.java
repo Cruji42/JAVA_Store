@@ -1,6 +1,6 @@
 package Main;
 
-import Vistas.Demo;
+import Vistas.Agregar;
 import Vistas.Login;
 import java.awt.*;
 

@@ -12,7 +12,7 @@ public Connection conexion(){
     try{
         Class.forName("com.mysql.jdbc.Driver");
         conectar = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/diego_store","root","");
-        //JOptionPane.showMessageDialog(null,"Conexión Establecida");
+//        JOptionPane.showMessageDialog(null,"Conexión Establecida");
     } catch (Exception e) {
         JOptionPane.showMessageDialog(null,"Error de conexion:" + e.getMessage());
     }
